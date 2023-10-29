@@ -22,11 +22,11 @@ classdef GoFa_15000 < RobotBaseClass
 %% Create the robot model
         function CreateModel(self)   
             % 
-	        link(1) = Link('d',265,'a',0,'alpha',0,'qlim',deg2rad([-360 360]), 'offset',pi/2);
-            link(2) = Link('d',444,'a',0,'alpha',0,'qlim', deg2rad([-360 360]), 'offset',0);
-            link(3) = Link('d',110,'a',0,'alpha',0,'qlim', deg2rad([-360 360]), 'offset', 0);
-            link(4) = Link('d',0,'a',470,'alpha',0,'qlim',deg2rad([-360 360]),'offset', 0);
-            link(5) = Link('d',0,'a',101,'alpha',0,'qlim',deg2rad([-360,360]), 'offset',0);
+	        link(1) = Link('d',0.218,'a',0,'alpha',0,'qlim',deg2rad([-360 360]), 'offset',pi/2);
+            link(2) = Link('d',0.182,'a',0.15,'alpha',0,'qlim', deg2rad([-360 360]), 'offset',0);
+            link(3) = Link('d',0.707,'a',0,'alpha',0,'qlim', deg2rad([-360 360]), 'offset', 0);
+            link(4) = Link('d',0.110,'a',0.095,'alpha',0,'qlim',deg2rad([-360 360]),'offset', 0);
+            link(5) = Link('d',0.085,'a',0.61,'alpha',0,'qlim',deg2rad([-360,360]), 'offset',0);
             link(6) = Link('d',	0,'a',0,'alpha',0,'qlim',deg2rad([-360,360]), 'offset', 0);
 
 	            
