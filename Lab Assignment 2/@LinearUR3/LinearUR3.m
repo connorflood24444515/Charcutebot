@@ -27,8 +27,13 @@ classdef LinearUR3 < RobotBaseClass
             link(5) = Link('d',0.13105,'a',0,'alpha',pi/2,'qlim',deg2rad([-360 360]),'offset', 0);
             link(6) = Link('d',0.08535,'a',0,'alpha',-pi/2,'qlim',deg2rad([-360,360]), 'offset',0);
             link(7) = Link('d',	0.0921,'a',0,'alpha',0,'qlim',deg2rad([-360,360]), 'offset', 0);
+            %link(8) = Link('d',	0,'a',0,'alpha',pi/2,'qlim',deg2rad([0,0]), 'offset', 0);
+
+
             
            
+            
+
 
            
             
