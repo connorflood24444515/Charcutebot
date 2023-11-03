@@ -16,7 +16,6 @@ classdef GoFa_15000 < RobotBaseClass
             self.model.base = self.model.base.T * baseTr * trotx(pi) * troty(pi);
             
             self.PlotAndColourRobot();
-            axis([-1.5 1.5 -1.5 1.5 0 1.5]);
         end
 
 %% Create the robot model
